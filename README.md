@@ -1,7 +1,7 @@
 # 💼 Shaghalny – Student Job Marketplace Platform
 
 A full-stack web-based job marketplace designed to connect students with short-term and part-time job opportunities.  
-The platform allows users to post and apply for jobs, communicate, interact through a community system, and manage their profiles, while administrators oversee system operations.
+The platform allows users to post and apply for jobs, communicate, interact through a community feed, and manage their profiles, while administrators oversee system operations.
 
 ---
 
@@ -14,17 +14,42 @@ The platform allows users to post and apply for jobs, communicate, interact thro
 
 ## 🚀 Features
 
-### 👤 User Features
-- User registration and secure login system  
-- Profile creation and management  
-- Browse and search available jobs  
-- Apply for job opportunities  
-- Post jobs with full required details  
-- Upload job-related data and images  
-- Direct messaging between users  
-- Community posts with likes and comments  
-- Submit and track support requests  
-- Review and rating system for users  
+### 💼 Job Management & Lifecycle System
+
+The platform implements a complete job lifecycle system that manages how jobs move through different states:
+
+- **Job Posting**: Users can create jobs with full details (title, description, payment, location, duration)
+- **Available Jobs**: Jobs are visible to all users and open for applications
+
+- **Application System**:
+  - Users can apply for jobs
+  - Job posters can **accept or reject applicants**
+  - Once a candidate is accepted, the job status changes from *Available* → *Pending*
+
+- **Active Job State**:
+  - A job becomes **Pending (assigned)** once a worker is selected
+  - The job remains locked until completion time
+
+- **Completion Flow**:
+  - After the job duration ends, it transitions to **Closed**
+  - Payment is processed to the worker
+  - Both parties can rate each other
+
+---
+
+### 📊 Personal Job History System
+Each user has a full activity dashboard:
+
+- **Posted Jobs** → jobs created by the user
+- **Applied Jobs** → jobs the user applied for
+- **Working Jobs** → currently accepted / pending jobs
+- **Completed Jobs** → finished and rated jobs
+
+Each entry includes:
+- Full job details
+- Current status (Available / Pending / Closed)
+- Application or acceptance history
+- Ratings after completion  
 
 ---
 
