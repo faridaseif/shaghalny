@@ -1,0 +1,45 @@
+/* =========================================
+   LANDING PAGE STYLES
+   ========================================= */
+@import './variables.css';
+@import './components.css';
+
+.landing-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, var(--gradient-left) 0%, var(--gradient-right) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.landing-hero {
+    max-width: 800px;
+    margin-bottom: 3rem;
+}
+
+.landing-hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.8));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.landing-hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.landing-cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}

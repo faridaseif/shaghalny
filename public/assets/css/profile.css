@@ -1,0 +1,254 @@
+:root {
+    --blue-main: #2D6BE0;
+    --blue-dark: #1F4FB3;
+
+    --gradient-left: #15223C;
+    --gradient-right: #1E473C;
+
+    --bg-page: #F5F7FB;
+    --bg-card: #FFFFFF;
+    --border-light: #E5E7EB;
+
+    --text-primary: #1F2937;
+    --text-secondary: #6B7280;
+    --text-faint: #9CA3AF;
+
+    --green-main: #34A853;
+    --green-dark: #2C8A46;
+
+    --icon-red: #E74C3C;
+    --icon-blue: #3B82F6;
+    --icon-purple: #A855F7;
+
+    --avatar-green: #4CAF50;
+    --avatar-blue: #2196F3;
+    --avatar-purple: #9C27B0;
+}
+
+body {
+    background: var(--bg-page);
+    font-family: 'Segoe UI', sans-serif;
+    color: var(--text-primary);
+}
+
+/* Profile cover background */
+.profile-cover {
+    height: 180px;
+    background: linear-gradient(to right, var(--gradient-left), var(--gradient-right));
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+/* Profile Card */
+.profile-card {
+    background: var(--bg-card);
+    border-radius: 18px;
+    margin-top: -80px;
+    border: 1px solid var(--border-light);
+}
+
+.profile-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.profile-name {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* Stats */
+.stats-card {
+    background: var(--bg-card);
+    border-radius: 18px;
+    border: 1px solid var(--border-light);
+}
+
+.label {
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+.value {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* Skills & Cards */
+.section-card {
+    background: var(--bg-card);
+    border-radius: 18px;
+    border: 1px solid var(--border-light);
+}
+
+.section-title {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.skill-badge {
+    background: #e8effc;
+    color: var(--blue-dark);
+    padding: 8px 14px;
+    border-radius: 20px;
+    margin: 4px;
+    font-size: 13px;
+    display: inline-block;
+}
+
+/* Activity */
+.subtext {
+    font-size: 13px;
+    color: var(--text-secondary);
+}
+
+.price {
+    color: var(--green-main);
+    font-weight: 700;
+}
+
+/* Achievements */
+.achievement-badge {
+    background: #fff7e6;
+    border-left: 6px solid #fbbf24;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Reviews */
+.review-card {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid var(--border-light);
+}
+
+.review-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.avatar-blue {
+    background: var(--avatar-blue);
+}
+
+.avatar-purple {
+    background: var(--avatar-purple);
+}
+
+.stars {
+    font-size: 14px;
+    color: #ffca28;
+}
+
+/* Profile cover background */
+/* Profile cover background removed (duplicate) */
+
+
+/* Edit Button (visible only for own profile) */
+.edit-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background: var(--blue-main);
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.edit-btn:hover {
+    background: var(--blue-dark);
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Make profile image clickable for owner */
+.profile-img.clickable {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.profile-img.clickable:hover {
+    transform: scale(1.05);
+}
+
+/* Inline Edit */
+.edit-inline {
+    font-size: 0.9em;
+    margin-left: 10px;
+    color: var(--blue-main);
+    cursor: pointer;
+}
+
+.edit-inline:hover {
+    text-decoration: underline;
+}
+
+/* Editable inline fields */
+.editable-field {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.value-text {
+    min-width: 150px;
+}
+
+.value-input {
+    min-width: 150px;
+}
+
+.edit-btn-inline {
+    font-size: 0.85rem;
+    padding: 4px 10px;
+}
+
+.update-success {
+    font-size: 0.85rem;
+}
+
+/* Profile picture clickable effect */
+.profile-img.clickable {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.profile-img.clickable:hover {
+    transform: scale(1.05);
+}
+
+/* Change picture button styling */
+#changePicBtn {
+    font-size: 0.85rem;
+}
+
+/* Multi-select dropdown style */
+.multiple-select {
+    min-width: 200px;
+}
+
+/* Save button */
+.save-btn {
+    margin-left: 10px;
+    font-size: 0.85rem;
+}
+
+/* Show button */
+.toggle-visibility-btn {
+    font-size: 0.75rem;
+    margin-left: 8px;
+}

@@ -1,0 +1,193 @@
+/* --- FOOTER LAYOUT --- */
+.site-footer {
+    position: relative;
+    margin-top: 4rem;
+    z-index: 50;
+    width: 100%;
+}
+
+/* --- FOOTER MAIN --- */
+.footer-main {
+    background: #1E293B !important; /* Palette Color: Dark Navy */
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    color: #E2E8F0;
+}
+
+/* Ensure keyframes exist in this file or are globally available. 
+   Since home.css is loaded, they might be there, but good to ensure or check scope. 
+   Assuming they are global if loaded in same page. 
+   Safe to re-declare to be self-contained in footer CSS? 
+   No, let's trust styles.css or home.css if loaded. 
+   But footer.css is separate. Let's add keyframes here to be safe. */
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 4rem;
+}
+
+/* Brand */
+.footer-logo {
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    letter-spacing: -0.5px;
+}
+.text-orange { color: #F97316; }
+.text-green { color: #5caf7ad6; }
+
+.brand-desc {
+    color: #64748B;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    max-width: 300px;
+}
+
+.social-links {
+    display: flex;
+    gap: 12px;
+}
+
+.social-btn {
+    width: 44px; height: 44px;
+    border-radius: 12px;
+    background: #1E293B;
+    border: 2px solid white; /* Added white border */
+    color: #94A3B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+}
+
+.social-btn:hover {
+    
+    color: white !important;
+    border-color: #ee5712 !important;
+    transform: translateY(-3px) rotate(5deg);
+    cursor: pointer;
+}
+
+/* Links */
+.footer-col h4 {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.footer-col ul { list-style: none; padding: 0; }
+.footer-col li { margin-bottom: 0.8rem; }
+
+.footer-col a {
+    color: #94A3B8;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-size: 0.95rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-col a:hover {
+color: #ee5712;
+    padding-left: 5px;
+}
+
+.badge-new {
+    font-size: 0.6rem;
+    background: #22C55E;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Newsletter */
+.newsletter-col {
+    transform: translateX(-20px); /* Shift left slightly */
+}
+
+.footer-form {
+    display: flex;
+    background: #1E293B;
+    padding: 6px;
+    border-radius: 12px;
+    border: 1px solid #334155;
+    margin-top: 1rem;
+}
+
+.footer-form input {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 0.8rem;
+    flex-grow: 1;
+    outline: none;
+}
+
+.footer-form button {
+    background: #F97316;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 40px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.footer-form button:hover { background: #EA580C; }
+
+/* Bottom */
+.footer-bottom {
+    max-width: 1200px;
+    margin: 3rem auto 0;
+    padding-top: 2rem;
+    border-top: 1px solid #1E293B;
+    display: flex;
+    justify-content: space-between;
+    color: #64748B;
+    font-size: 0.9rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.legal {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.legal a {
+    color: #64748B;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.legal a:hover { color: white; }
+
+/* Responsive */
+@media (max-width: 900px) {
+    .footer-container { grid-template-columns: 1fr 1fr; }
+    .footer-cta-card { flex-direction: column; text-align: center; gap: 1.5rem; padding: 2rem; }
+    .footer-cta-wrapper { top: -40px; }
+}
+
+@media (max-width: 600px) {
+    .footer-container { grid-template-columns: 1fr; text-align: center; }
+    .footer-bottom { flex-direction: column; gap: 1rem; align-items: center; }
+    .social-links { justify-content: center; }
+    .cta-actions { flex-direction: column; width: 100%; }
+    .btn-cta { width: 100%; text-align: center; }
+}

@@ -1,0 +1,14 @@
+/* =========================================
+   MAIN STYLES - Imports all organized CSS files
+   ========================================= */
+@import './variables.css';
+@import './global.css';
+@import './components.css';
+@import './animations.css';
+@import './landing.css';
+@import './home.css';
+/* Note: login.css is deprecated - use auth.css for login/register pages */
+
+/* This file now serves as a main import file.
+   Individual pages can import specific files as needed,
+   or use this file to get everything. */
