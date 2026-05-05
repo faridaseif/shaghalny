@@ -6,11 +6,11 @@ The platform allows users to post and apply for jobs, communicate, interact thro
 ---
 
 ## 📷 Demo
-<img width="1864" height="776" alt="Screenshot 2026-05-05 034245" src="https://github.com/user-attachments/assets/cddf3207-8104-4c60-9af3-ce202c1bd0c4" />
-<img width="1880" height="724" alt="Screenshot 2026-05-05 034506" src="https://github.com/user-attachments/assets/61585a2e-8b89-43e1-a251-f00b3cfff721" />
-<img width="1874" height="761" alt="Screenshot 2026-05-05 034535" src="https://github.com/user-attachments/assets/9fb0a018-f8bb-4614-8e9c-a15dff6ff087" />
-<img width="1886" height="775" alt="Screenshot 2026-05-05 034626" src="https://github.com/user-attachments/assets/1afeebe3-1d28-4f8c-b8bf-599022d9d077" />
-<img width="1890" height="790" alt="Screenshot 2026-05-05 034214" src="https://github.com/user-attachments/assets/70f47c27-d3b2-4272-a814-00ffbfd4bc03" />
+<img width="1864" height="776" alt="Screenshot 2026-05-05 034245" src="https://github.com/user-attachments/assets/cddf3207-8104-4c60-9af3-ce202c1bd0c4" /> <br>
+<img width="1880" height="724" alt="Screenshot 2026-05-05 034506" src="https://github.com/user-attachments/assets/61585a2e-8b89-43e1-a251-f00b3cfff721" /><br>
+<img width="1874" height="761" alt="Screenshot 2026-05-05 034535" src="https://github.com/user-attachments/assets/9fb0a018-f8bb-4614-8e9c-a15dff6ff087" /><br>
+<img width="1886" height="775" alt="Screenshot 2026-05-05 034626" src="https://github.com/user-attachments/assets/1afeebe3-1d28-4f8c-b8bf-599022d9d077" /><br>
+<img width="1890" height="790" alt="Screenshot 2026-05-05 034214" src="https://github.com/user-attachments/assets/70f47c27-d3b2-4272-a814-00ffbfd4bc03" /><br>
 
 
 
